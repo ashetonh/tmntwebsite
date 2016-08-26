@@ -15,10 +15,24 @@
     background-image: url(rancidbannerbg.png);
 }
 
+h1 {
+    text-shadow: 2px 2px #999999;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(moviebg.png);
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
 #left_reviews{
-    width:550px;
+    width: 550px;
     height: 2000px;
-    float: left;
+    float:left;
 }
 
 #overview{
@@ -36,22 +50,7 @@
     border-top-right-radius: 15px;
 }
 
-h1 {
-    text-shadow: 2px 2px #999999;
-    font-family: sans-serif;
-}
-
-body{
-    background-image: url(moviebg.png);
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding: 0;
-}
-
 .left_banner{
-    
     width: 550px;
     height: 83px;
     border-top-left-radius: 15px;
@@ -60,16 +59,10 @@ body{
 
 
 
-
-
-
-
 .poster{
     width: 250px;
     height: 412px;
     border-top-right-radius: 15px;
-
-
 }
 
 .rottenimage{
@@ -98,3 +91,22 @@ body{
     margin-left: 2px;
 }
 
+.moviedetails{
+    width: 230px;
+    height: 1588px;    
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 8pt;
+    font-family: sans-serif;
+}
+
+.quote{
+    font-size: 8pt;
+    font-style: bold;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 258.5px;
+}
