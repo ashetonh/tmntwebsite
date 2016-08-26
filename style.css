@@ -1,0 +1,100 @@
+#all_content{
+    width: 800px;
+    height: 2000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 4px solid;
+    border-color: grey;
+}
+
+#banner{
+    height: 50px;
+    width: 100%;
+    background-image: url(rancidbannerbg.png);
+}
+
+#left_reviews{
+    width:550px;
+    height: 2000px;
+    float: left;
+}
+
+#overview{
+    width: 250px;
+    height: 2000px;
+    float: right;
+    position: relative;
+}
+
+#bgcolor{
+    background-color: #A2B964;
+    width: 250px;
+    height: 2000px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h1 {
+    text-shadow: 2px 2px #999999;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(moviebg.png);
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.left_banner{
+    
+    width: 550px;
+    height: 83px;
+    border-top-left-radius: 15px;
+    background-image: url(rottenlargebg.png)
+}
+
+
+
+
+
+
+
+.poster{
+    width: 250px;
+    height: 412px;
+    border-top-right-radius: 15px;
+
+
+}
+
+.rottenimage{
+    width: 98px;
+    height: 83px;
+    border-top-left-radius: 15px;
+    float: left;
+}
+
+.rating{
+    margin-left: 3px;
+    margin-top: 12px;
+    font-size: 48pt;
+    font-family: sans-serif;
+    font-style: bold;
+    color: red;
+    float: left;
+}
+
+.outof{
+    color: white;
+    font-size: 8pt;
+    font-family: sans-serif;
+    margin-top: 60px;
+    float: left;
+    margin-left: 2px;
+}
+
